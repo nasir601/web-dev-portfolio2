@@ -18,13 +18,12 @@ nav ul{
 
 }
 .banner-heading{
-    align-items: center;
+   align-items: center;
 padding: 198px 0 200px 0;
-max-width: 1140px;
+max-width: 1200px;
+margin: 0 auto;
 }
-.benner-hd{
-    align-items: center;
-}
+
 nav{
     display: flex;
     align-items: center;
@@ -38,4 +37,34 @@ nav{
 }
 .header{
     background-image: url(../Assets/Hero-bg.png);
+}
+.section-description{
+    color: #252432;
+    font-size: 18px;
+}
+
+.section-title{
+    font-size: 42px;
+    color: #252432;
+    font-weight: bold;
+
+}
+.about-content{
+
+}
+.about-title{
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+}
+.abount-description{
+    color: #252432;
+    font-weight: 24px;
+    font-size: regular;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 150px;
+    padding: 60px;
 }
