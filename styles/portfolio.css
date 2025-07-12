@@ -62,6 +62,11 @@ nav{
     font-weight: 24px;
     font-size: regular;
 }
+.about-items{
+     padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
 .about{
     display: flex;
     justify-content: space-between;
@@ -83,4 +88,16 @@ nav{
     border-radius: 10px;
     padding: 20px;
     border-radius: 20px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+footer input[type="test"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
 }
